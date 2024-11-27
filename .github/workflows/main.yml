@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'testing github action'
-        run: pwd
+      - name: 'Printing folder contents'
+        run: ls
 
-      - name: 'testing printing'
-        run: echo omar
